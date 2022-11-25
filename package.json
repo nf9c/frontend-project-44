@@ -19,5 +19,8 @@
     "url": "https://github.com/nf9c/frontend-project-44/issues"
   },
   "homepage": "https://github.com/nf9c/frontend-project-44#readme",
-  "type": "module"
+  "type": "module",
+  "bin": {
+  "brain-games": "bin/brain-games.js"
+  }
 }
