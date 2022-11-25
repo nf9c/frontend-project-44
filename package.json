@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "braingames.nf",
+  "main": "index.js",
+  "scripts": {
+    "test": "test1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nf9c/frontend-project-44.git"
+  },
+  "keywords": [
+    "brain"
+  ],
+  "author": "nf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nf9c/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/nf9c/frontend-project-44#readme",
+  "type": "module"
+}
