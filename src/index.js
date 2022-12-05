@@ -3,8 +3,6 @@ import greetingName from './cli.js';
 import launchEven from '../games/launchEven.js';
 import launchCalc from '../games/launchCalc.js';
 
-// import { getRandomInteger } from '../src/numericFunc.js';
-
 export default (gameChosen) => {
   const name = greetingName();
   let questionList = [];
@@ -18,14 +16,13 @@ export default (gameChosen) => {
     default:
       break;
   }
-  // console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  for (const questionPair of questionList) {
-    console.log(`Question: ${questionPair[0]}`);
+  for (let counter = 0; counter < 3; counter += 1) {
+    console.log(`Question: ${questionList[counter][0]}`);
     const playerAnswer = readlineSync.question('Your Answer: ');
-    if (playerAnswer === questionPair[1]) {
+    if (playerAnswer === questionList[counter][1]) {
       console.log('Correct!');
     } else {
-      console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${questionPair[1]}'. \n Let's try again, ${name}!`);
+      console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${questionList[counter][1]}'. \n Let's try again, ${name}!`);
       return;
     }
   }

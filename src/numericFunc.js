@@ -1,5 +1,5 @@
 export const getRandomInteger = (min, max) => {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
+  const tempMin = Math.ceil(min);
+  const tempMax = Math.floor(max);
+  return Math.floor(Math.random() * (tempMax - tempMin + 1)) + tempMin;
 };
