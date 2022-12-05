@@ -3,6 +3,7 @@ import greetingName from './cli.js';
 import launchEven from '../games/launchEven.js';
 import launchCalc from '../games/launchCalc.js';
 import launchGcd from '../games/launchGCD.js';
+import launchPrgrs from '../games/launchPrgrs.js';
 
 export default (gameChosen) => {
   const name = greetingName();
@@ -16,6 +17,9 @@ export default (gameChosen) => {
       break;
     case 'gcd':
       questionList = launchGcd();
+      break;
+    case 'prgrs':
+      questionList = launchPrgrs();
       break;
     default:
       break;
