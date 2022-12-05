@@ -2,6 +2,7 @@ import readlineSync from 'readline-sync';
 import greetingName from './cli.js';
 import launchEven from '../games/launchEven.js';
 import launchCalc from '../games/launchCalc.js';
+import launchGcd from '../games/launchGCD.js';
 
 export default (gameChosen) => {
   const name = greetingName();
@@ -12,6 +13,9 @@ export default (gameChosen) => {
       break;
     case 'calc':
       questionList = launchCalc();
+      break;
+    case 'gcd':
+      questionList = launchGcd();
       break;
     default:
       break;
