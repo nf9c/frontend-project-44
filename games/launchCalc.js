@@ -1,4 +1,4 @@
-import { getRandomInteger } from '../src/numericFunc.js';
+import getRandomInteger from '../src/numericFunc.js';
 
 export default () => {
   const questionList = [];
