@@ -4,6 +4,7 @@ import launchEven from '../games/launchEven.js';
 import launchCalc from '../games/launchCalc.js';
 import launchGcd from '../games/launchGCD.js';
 import launchPrgrs from '../games/launchPrgrs.js';
+import launchPrime from '../games/launchPrime.js';
 
 export default (gameChosen) => {
   const name = greetingName();
@@ -20,6 +21,9 @@ export default (gameChosen) => {
       break;
     case 'prgrs':
       questionList = launchPrgrs();
+      break;
+    case 'prime':
+      questionList = launchPrime();
       break;
     default:
       break;
