@@ -7,6 +7,7 @@ import launchPrgrs from '../games/launchPrgrs.js';
 import launchPrime from '../games/launchPrime.js';
 
 export default (gameChosen) => {
+  console.log('Welcome to the Brain Games!');
   const name = greetingName();
   let questionList = [];
   switch (gameChosen) {
