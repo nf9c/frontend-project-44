@@ -18,7 +18,6 @@ export default () => {
     }
     questionPair[0] = question.trim();
     question = '';
-    console.log(questionPair);
     questionList[counter] = questionPair;
   }
   console.log('What number is missing in the progression?');
