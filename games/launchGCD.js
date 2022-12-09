@@ -7,7 +7,8 @@ export default () => {
     const firstInt = getRandomInteger(2, 100);
     const secondInt = getRandomInteger(2, 100);
     let starter = firstInt;
-    // путем сравнения двух чисел между собой и с 1/2 бОльшего числа определяем с какого числа начинаем цикл.
+    // путем сравнения двух чисел между собой и с 1/2 бОльшего числа определяем
+    // с какого числа будем начинать цикл.
     if (firstInt !== secondInt) {
       if (firstInt > secondInt) {
         if (Math.round(firstInt / 2) > secondInt) {
