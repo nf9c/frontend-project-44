@@ -4,12 +4,17 @@
 ### CodeClimate Maintainability test result:
 [![Maintainability](https://api.codeclimate.com/v1/badges/0eb45ac7e897125a808d/maintainability)](https://codeclimate.com/github/nf9c/frontend-project-44/maintainability)
 
-на ПК на очной форме не установлена аскинема:
-levitskiykirill@spb-hexly69:~$ asciinema --version
-Command 'asciinema' not found, but can be installed with:
-snap install asciinema  # version 2.1.0, or
-apt  install asciinema  # version 2.1.0-1
-See 'snap info asciinema' for additional versions.
-levitskiykirill@spb-hexly69:~$ sudo apt-add-repository ppa:zanchey/asciinema
-[sudo] password for levitskiykirill: 
-Sorry, try again.
+Installation + brain-even test:
+[![asciicast](https://asciinema.org/a/PwGMKOswiGgeORM8pgPSinDZY.svg)](https://asciinema.org/a/PwGMKOswiGgeORM8pgPSinDZY)
+
+brain-calc test:
+[![asciicast](https://asciinema.org/a/rdp4QpvTn8fBGHHhrf794B2YV.svg)](https://asciinema.org/a/rdp4QpvTn8fBGHHhrf794B2YV)
+
+brain-gcd test:
+[![asciicast](https://asciinema.org/a/wMCCqKcBcujhVtLfyTmp8kfsJ.svg)](https://asciinema.org/a/wMCCqKcBcujhVtLfyTmp8kfsJ)
+
+brain-progression test:
+[![asciicast](https://asciinema.org/a/Waa8O2bqiM0yYQIFKHK19lqgQ.svg)](https://asciinema.org/a/Waa8O2bqiM0yYQIFKHK19lqgQ)
+
+brain-prime test:
+[![asciicast](https://asciinema.org/a/OZFoa2voPVgLUxqtSxxPsXAus.svg)](https://asciinema.org/a/OZFoa2voPVgLUxqtSxxPsXAus)
