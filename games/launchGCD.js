@@ -7,13 +7,16 @@ export default () => {
     const firstInt = getRandomInteger(2, 100);
     const secondInt = getRandomInteger(2, 100);
     let starter = firstInt;
-    if (firstInt > secondInt) {
-      if (Math.round(firstInt / 2) > secondInt) {
-        starter = secondInt;
-      } else starter = Math.round(firstInt / 2);
-    } else if (Math.round(secondInt / 2) > firstInt) {
-      starter = firstInt;
-    } else starter = Math.round(secondInt / 2);
+    // путем сравнения двух чисел между собой и с 1/2 бОльшего числа определяем с какого числа начинаем цикл.
+    if (firstInt !== secondInt) {
+      if (firstInt > secondInt) {
+        if (Math.round(firstInt / 2) > secondInt) {
+          starter = secondInt;
+        } else starter = Math.round(firstInt / 2);
+      } else if (Math.round(secondInt / 2) > firstInt) {
+        starter = firstInt;
+      } else starter = Math.round(secondInt / 2);
+    } else starter = firstInt;
     for (starter; starter > 0; starter -= 1) {
       if ((firstInt % starter === 0) && (secondInt % starter === 0)) {
         break;
