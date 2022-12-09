@@ -4,17 +4,17 @@
 ### CodeClimate Maintainability test result:
 [![Maintainability](https://api.codeclimate.com/v1/badges/0eb45ac7e897125a808d/maintainability)](https://codeclimate.com/github/nf9c/frontend-project-44/maintainability)
 
-Installation + brain-even test:
+### Installation + brain-even test:
 [![asciicast](https://asciinema.org/a/PwGMKOswiGgeORM8pgPSinDZY.svg)](https://asciinema.org/a/PwGMKOswiGgeORM8pgPSinDZY)
 
-brain-calc test:
+### brain-calc test:
 [![asciicast](https://asciinema.org/a/rdp4QpvTn8fBGHHhrf794B2YV.svg)](https://asciinema.org/a/rdp4QpvTn8fBGHHhrf794B2YV)
 
-brain-gcd test:
+### brain-gcd test:
 [![asciicast](https://asciinema.org/a/wMCCqKcBcujhVtLfyTmp8kfsJ.svg)](https://asciinema.org/a/wMCCqKcBcujhVtLfyTmp8kfsJ)
 
-brain-progression test:
+### brain-progression test:
 [![asciicast](https://asciinema.org/a/Waa8O2bqiM0yYQIFKHK19lqgQ.svg)](https://asciinema.org/a/Waa8O2bqiM0yYQIFKHK19lqgQ)
 
-brain-prime test:
+### brain-prime test:
 [![asciicast](https://asciinema.org/a/OZFoa2voPVgLUxqtSxxPsXAus.svg)](https://asciinema.org/a/OZFoa2voPVgLUxqtSxxPsXAus)
