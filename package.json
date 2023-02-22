@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "braingames.nf",
+  "description": "A collection of console games for quick wits. To win each game you must give the right answer to 3 questions.",
   "main": "index.js",
   "scripts": {
     "test": "test1"
