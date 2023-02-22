@@ -1,10 +1,10 @@
 import readlineSync from 'readline-sync';
 import greetingName from './cli.js';
-import launchEven from '../games/launchEven.js';
-import launchCalc from '../games/launchCalc.js';
-import launchGcd from '../games/launchGCD.js';
-import launchPrgrs from '../games/launchPrgrs.js';
-import launchPrime from '../games/launchPrime.js';
+import launchEven from './games/launchEven.js';
+import launchCalc from './games/launchCalc.js';
+import launchGcd from './games/launchGCD.js';
+import launchPrgrs from './games/launchPrgrs.js';
+import launchPrime from './games/launchPrime.js';
 
 export default (gameChosen) => {
   const name = greetingName();
