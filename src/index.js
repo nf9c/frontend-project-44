@@ -1,33 +1,10 @@
 import readlineSync from 'readline-sync';
 import greetingName from './cli.js';
-import launchEven from './games/launchEven.js';
-import launchCalc from './games/launchCalc.js';
-import launchGcd from './games/launchGCD.js';
-import launchPrgrs from './games/launchPrgrs.js';
-import launchPrime from './games/launchPrime.js';
 
 export default (gameChosen) => {
   const name = greetingName();
-  let questionList = [];
-  switch (gameChosen) {
-    case 'even':
-      questionList = launchEven();
-      break;
-    case 'calc':
-      questionList = launchCalc();
-      break;
-    case 'gcd':
-      questionList = launchGcd();
-      break;
-    case 'prgrs':
-      questionList = launchPrgrs();
-      break;
-    case 'prime':
-      questionList = launchPrime();
-      break;
-    default:
-      break;
-  }
+  const questionList = gameChosen();
+
   for (let counter = 0; counter < 3; counter += 1) {
     console.log(`Question: ${questionList[counter][0]}`);
     const playerAnswer = readlineSync.question('Your Answer: ');
