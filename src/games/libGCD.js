@@ -7,16 +7,20 @@ export default () => {
     const firstInt = getRandomInteger(2, 100);
     const secondInt = getRandomInteger(2, 100);
     let starter = firstInt;
+
+    // функция считает половину заданного числа и округляет результат до целого числа
+    const roundHalf = (number) => (Math.round(number / 2));
+
     // путем сравнения двух чисел между собой и с 1/2 бОльшего числа определяем
     // с какого числа будем начинать цикл.
     if (firstInt !== secondInt) {
       if (firstInt > secondInt) {
-        if (Math.round(firstInt / 2) > secondInt) {
+        if (roundHalf(firstInt) > secondInt) {
           starter = secondInt;
-        } else starter = Math.round(firstInt / 2);
-      } else if (Math.round(secondInt / 2) > firstInt) {
+        } else starter = roundHalf(firstInt);
+      } else if (roundHalf(secondInt) > firstInt) {
         starter = firstInt;
-      } else starter = Math.round(secondInt / 2);
+      } else starter = roundHalf(secondInt);
     } else starter = firstInt;
     for (starter; starter > 0; starter -= 1) {
       if ((firstInt % starter === 0) && (secondInt % starter === 0)) {
