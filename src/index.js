@@ -1,9 +1,9 @@
 import readlineSync from 'readline-sync';
 import greetingName from './cli.js';
 
-export default (gameChosen) => {
+export default (getGameData) => {
   const name = greetingName();
-  const questionList = gameChosen();
+  const questionList = getGameData();
 
   for (let counter = 0; counter < 3; counter += 1) {
     console.log(`Question: ${questionList[counter][0]}`);
